@@ -14,14 +14,14 @@
 
 
 body{
-  margin:0; /* 기본 속성이 8px */
+  margin:0; 
   font-family: "Song Myung";
   font-size: x-large;
   background-color: lightgray;
 } 
 
 .container {
-  text-align:center; /* 임의로 추가 */
+  text-align:center; 
   background-color: white;
   width: 750px;
   min-height: 100vh;
@@ -35,7 +35,7 @@ body{
 }
 
 .task-tabs {
-  display: flex; /* flex 적용을 해야 글자들이 가로로 정렬된다 */
+  display: flex; 
   border-bottom: 1px solid lightgray;
   position: relative;
 }
@@ -63,7 +63,7 @@ body{
 }
 
 .task-done{
-  text-decoration: line-through;   /* 글자에 찍찍 긋기 */
+  text-decoration: line-through;   
 }
 
 .task-done-background{
