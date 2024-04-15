@@ -57,7 +57,6 @@ function render(){
        
     }else if(mode === "ongoing" || mode === "done"){
         list = filterList;
-      
     }
     
     let resultHTML = '';
